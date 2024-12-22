@@ -7,24 +7,25 @@ This project leverages the BLIP (Bootstrapped Language-Image Pretraining) model 
 * BLEU Evaluation: Evaluate the generated caption against reference captions using the BLEU score.
 * Flickr30k Integration: Load images and captions from the Flickr30k dataset.
 * Gradio Interface: User-friendly interface for uploading images, generating captions, and viewing evaluation metrics.
-Requirements
-Python 3.7+
-Gradio
-Transformers (Hugging Face)
-PIL (Pillow)
-NLTK
-Installation
-Clone this repository:
 
-bash
+# Requirements
+* Python 3.7+
+* Gradio
+* Transformers (Hugging Face)
+* PIL (Pillow)
+* NLTK
+
+# Installation
+* # Clone this repository:
 Copy code
-git clone https://github.com/yourusername/image-captioning.git
+git clone https://github.com/arpit2167407/Flickr30k-Image-Captioning.git
 cd image-captioning
-Install dependencies:
 
-bash
+# Install dependencies:
+
 Copy code
 pip install -r requirements.txt
+
 Usage
 Add your captions.txt file and images in the appropriate directory.
 Run the project:
