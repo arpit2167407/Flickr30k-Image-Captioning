@@ -23,23 +23,23 @@ cd image-captioning
 
 # Install dependencies:
 
-Copy code
+* Copy code
 pip install -r requirements.txt
 
-Usage
-Add your captions.txt file and images in the appropriate directory.
-Run the project:
-python main.py
-Access the Gradio interface in your browser.
-File Descriptions
-caption.py: Contains the code for generating captions using the BLIP model.
-evaluation.py: Provides a function for calculating the BLEU score.
-dataset.py: Functions to load images and captions from the Flickr30k dataset.
-main.py: Entry point for running the Gradio interface.
-Example
-Upload an image and enter its name.
-View the generated caption, reference captions, and BLEU score in the interface.
-Future Improvements
-Add support for other datasets.
-Enhance BLEU score evaluation with multiple reference captions.
-Explore different image captioning models.
+# Usage
+* Add your captions.txt file and images in the appropriate directory.
+* Run the project:
+* python main.py
+* Access the Gradio interface in your browser.
+# File Descriptions
+* caption.py: Contains the code for generating captions using the BLIP model.
+* evaluation.py: Provides a function for calculating the BLEU score.
+* dataset.py: Functions to load images and captions from the Flickr30k dataset.
+* main.py: Entry point for running the Gradio interface.
+# Example
+* Upload an image and enter its name.
+* View the generated caption, reference captions, and BLEU score in the interface.
+# Future Improvements
+* Add support for other datasets.
+* Enhance BLEU score evaluation with multiple reference captions.
+* Explore different image captioning models.
